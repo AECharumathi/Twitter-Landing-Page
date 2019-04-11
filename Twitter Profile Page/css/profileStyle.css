@@ -132,12 +132,28 @@ aside{
 .side-container div div h2{
 	margin:0px;	
 }
-.side-container2 div:nth-child(1){
+.side-container1-header{
+	padding-left: 10px;
+	font-size: 13px;
+	height:45px;
+}
+.side-container1-body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.side-container1-body div{
+	width:72px;
+	height:72px;
+	background-color: #ccc;
+	margin-bottom: 5px;
+	margin-top:7px;
+}
+.side-container2 div:nth-child(1) , .side-container1-header, .side-container2-header{
 	border-bottom: 1px solid #7a797a;
 }
 .side-container2-header{
 	padding:10px 5px;
-	border-bottom: 1px solid #7a797a;
 }
 .side-container2-header span:nth-child(1), .side-container2-body span:nth-child(2), .main-container2-header span:nth-child(2) {
 	font-size:17px;
