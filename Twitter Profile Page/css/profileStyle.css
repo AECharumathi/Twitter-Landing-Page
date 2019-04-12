@@ -98,6 +98,9 @@ header{
 	width:10em;
 	margin-top: 5px;
 }
+.header-footer-body #Tweets, #value1{
+	color: #1DA1F2;
+}
 .container{
 	display: flex;
 	flex-direction: row;
@@ -280,7 +283,7 @@ aside{
 }
 #Following-container div .search-bar{
 	background-color: #f5f7f5;;
-	width:100%;
+	width:95%;
 	height:25px;
 	margin-top:10px;
 	margin-bottom: 10px; 
@@ -288,7 +291,7 @@ aside{
 .Following-container1{
 	background-color: #fff;
 	height:220px;
-	width:260px;
+	width:262px;
 	justify-content: space-around;
 	margin-bottom: 20px;
 	margin-right: 25px;
